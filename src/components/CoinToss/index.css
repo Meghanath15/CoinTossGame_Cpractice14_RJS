@@ -1,0 +1,98 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+}
+.toss-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 60%;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Roboto';
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .toss-container {
+    max-width: 500px;
+    padding: 30px;
+  }
+}
+.heading {
+  text-align: center;
+  color: #a35200;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+}
+.description {
+  color: #334155;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+}
+
+.toss-image {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-image {
+    width: 250px;
+    height: 250px;
+  }
+}
+.toss-button {
+  background-color: #ffda6f;
+  color: #a35200;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-button {
+    margin-top: 32px;
+  }
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+}
+.count {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 24px;
+  margin-right: 24px;
+}
